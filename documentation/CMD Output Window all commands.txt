@@ -1,0 +1,1742 @@
+Microsoft Windows [Version 10.0.22631.4602]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>npm run dev
+
+> mycontacts-backend-api@1.0.0 dev
+> nodemon server.js
+
+[nodemon] 3.1.9
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node server.js`
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+The request body is undefined
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+The request body is [object Object]
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+The request body is { name: 'Yashwanth', email: 'ear@gmail.com', phone: '2395350' }
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+SyntaxError: Expected double-quoted property name in JSON at position 53 (line 4 column 1)
+    at JSON.parse (<anonymous>)
+    at parse (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\body-parser\lib\types\json.js:92:19)
+    at D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\raw-body\index.js:238:16)
+    at done (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:524:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+The request body is { name: 'Yashwanth', email: 'ear@gmail.com' }
+Error: All fields are mandatory!
+    at createContact (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\contactController.js:39:15)
+    at Layer.handle [as handle_request] (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\route.js:149:13)
+    at next (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\route.js:145:7)
+    at Route.dispatch (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\index.js:175:3)
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+ [nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\middleware\errorHandler.js:3
+const errorHandler = (err, req, res, next) = {
+                     ^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid left-hand side in assignment
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\server.js:6:22)
+
+Node.js v22.12.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\middleware\errorHandler.js:3
+const errorHandler = (err, req, res, next) = {
+                     ^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid left-hand side in assignment
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\server.js:6:22)
+
+Node.js v22.12.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\middleware\errorHandler.js:3
+const errorHandler = (err, req, res, next) = {
+                     ^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid left-hand side in assignment
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\server.js:6:22)
+
+Node.js v22.12.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\middleware\errorHandler.js:3
+const errorHandler = (err, req, res, next) = {
+                     ^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid left-hand side in assignment
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\server.js:6:22)
+
+Node.js v22.12.0
+[nodemon] app crashed - waiting for file changes before starting...
+
+^C^CTerminate batch job (Y/N)?
+Terminate batch job (Y/N)?
+Terminate batch job (Y/N)? y
+
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>npm run dev
+
+> mycontacts-backend-api@1.0.0 dev
+> nodemon server.js
+
+[nodemon] 3.1.9
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node server.js`
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\middleware\errorHandler.js:3
+const errorHandler = (err, req, res, next) = {
+                     ^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid left-hand side in assignment
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\server.js:6:22)
+
+Node.js v22.12.0
+[nodemon] app crashed - waiting for file changes before starting...
+Terminate batch job (Y/N)?
+Terminate batch job (Y/N)? y
+
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>npm run dev
+
+> mycontacts-backend-api@1.0.0 dev
+> nodemon server.js
+
+[nodemon] 3.1.9
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node server.js`
+Server running on port 5001
+The request body is { name: 'Yashwanth', email: 'ear@gmail.com' }
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Terminate batch job (Y/N)? y
+
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>npm i express-async-handler
+
+added 1 package, and audited 100 packages in 2s
+
+19 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>npm i mongoose
+
+added 20 packages, and audited 120 packages in 7s
+
+20 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>npm run dev
+
+> mycontacts-backend-api@1.0.0 dev
+> nodemon server.js
+
+[nodemon] 3.1.9
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\models\contactModel.js:10
+const contactSchema = mongoose({
+                      ^
+
+TypeError: mongoose is not a function
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\models\contactModel.js:10:23)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\contactController.js:3:17)
+
+Node.js v22.12.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\models\contactModel.js:10
+const contactSchema = mongoose({
+                      ^
+
+TypeError: mongoose is not a function
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\models\contactModel.js:10:23)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\contactController.js:3:17)
+
+Node.js v22.12.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\models\contactModel.js:10
+const contactSchema = mongoose({
+                      ^
+
+TypeError: mongoose is not a function
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\models\contactModel.js:10:23)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\contactController.js:3:17)
+
+Node.js v22.12.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\models\contactModel.js:10
+const contactSchema = mongoose({
+                      ^
+
+TypeError: mongoose is not a function
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\models\contactModel.js:10:23)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\contactController.js:3:17)
+
+Node.js v22.12.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\models\contactModel.js:10
+const contactSchema = mongoose({
+                      ^
+
+TypeError: mongoose is not a function
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\models\contactModel.js:10:23)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\contactController.js:3:17)
+
+Node.js v22.12.0
+[nodemon] app crashed - waiting for file changes before starting...
+Terminate batch job (Y/N)?
+Terminate batch job (Y/N)? y
+
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>y
+'y' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>npm run dev
+
+> mycontacts-backend-api@1.0.0 dev
+> nodemon server.js
+
+[nodemon] 3.1.9
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node server.js`
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\models\contactModel.js:10
+const contactSchema = mongoose({
+                      ^
+
+TypeError: mongoose is not a function
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\models\contactModel.js:10:23)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\contactController.js:3:17)
+
+Node.js v22.12.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\models\contactModel.js:11
+const contactSchema = mongoose({
+                      ^
+
+TypeError: mongoose is not a function
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\models\contactModel.js:11:23)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\contactController.js:3:17)
+
+Node.js v22.12.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\models\contactModel.js:11
+const contactSchema = mongoose({
+                      ^
+
+TypeError: mongoose is not a function
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\models\contactModel.js:11:23)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\contactController.js:3:17)
+
+Node.js v22.12.0
+[nodemon] app crashed - waiting for file changes before starting...
+Terminate batch job (Y/N)? y
+
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>y
+'y' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>npm run dev
+
+> mycontacts-backend-api@1.0.0 dev
+> nodemon server.js
+
+[nodemon] 3.1.9
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node server.js`
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\models\contactModel.js:11
+const contactSchema = mongoose({
+                      ^
+
+TypeError: mongoose is not a function
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\models\contactModel.js:11:23)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\contactController.js:3:17)
+
+Node.js v22.12.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-00.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-00.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+The request body is { name: 'Yashwanth', email: 'ear@gmail.com', phone: '2357234' }
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-00.gpnwl.mongodb.net mycontacts-backend
+No errors. Everything is great!
+No errors. Everything is great!
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-00.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+No errors. Everything is great!
+No errors. Everything is great!
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module './routes/userRoutes'
+Require stack:
+- D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\server.js:24:23)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Yashwanth\\HTW_Berlin\\Self_Learnings\\Nodejs\\Expressjs_ContactManagerApp\\mycontacts-backend\\server.js'
+  ]
+}
+
+Node.js v22.12.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\index.js:469
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\server.js:24:5)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+
+Node.js v22.12.0
+[nodemon] app crashed - waiting for file changes before starting...
+ [nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\routes\userRoutes.js:5
+const router = express.router();
+                       ^
+
+TypeError: express.router is not a function
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\routes\userRoutes.js:5:24)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\server.js:24:23)
+
+Node.js v22.12.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\index.js:469
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\server.js:24:5)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+
+Node.js v22.12.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\userController.js:4
+const registerUser = asyncHandler( async (req, res) => {
+                     ^
+
+ReferenceError: asyncHandler is not defined
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\userController.js:4:22)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\routes\userRoutes.js:4:26)
+
+Node.js v22.12.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\userController.js:4
+const registerUser = asyncHandler( async (req, res) => {
+                     ^
+
+ReferenceError: asyncHandler is not defined
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\userController.js:4:22)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\routes\userRoutes.js:4:26)
+
+Node.js v22.12.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\userController.js:4
+const registerUser = asyncHandler( async (req, res) => {
+                     ^
+
+ReferenceError: asyncHandler is not defined
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\userController.js:4:22)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\routes\userRoutes.js:4:26)
+
+Node.js v22.12.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\userController.js:4
+const registerUser = asyncHandler( async (req, res) => {
+                     ^
+
+ReferenceError: asyncHandler is not defined
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\userController.js:4:22)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\routes\userRoutes.js:4:26)
+
+Node.js v22.12.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\userController.js:4
+const registerUser = asyncHandler( async (req, res) => {
+                     ^
+
+ReferenceError: asyncHandler is not defined
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\userController.js:4:22)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\routes\userRoutes.js:4:37)
+
+Node.js v22.12.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\userController.js:4
+const registerUser = asyncHandler( async (req, res) => {
+                     ^
+
+ReferenceError: asyncHandler is not defined
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\userController.js:4:22)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\routes\userRoutes.js:4:37)
+
+Node.js v22.12.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\userController.js:4
+const registerUser = asyncHandler( async (req, res) => {
+                     ^
+
+ReferenceError: asyncHandler is not defined
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\userController.js:4:22)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\routes\userRoutes.js:4:37)
+
+Node.js v22.12.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\userController.js:4
+const registerUser = asyncHandler( async (req, res) => {
+                     ^
+
+ReferenceError: asyncHandler is not defined
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\userController.js:4:22)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\routes\userRoutes.js:4:50)
+
+Node.js v22.12.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\userController.js:4
+const registerUser = asyncHandler( async (req, res) => {
+                     ^
+
+ReferenceError: asyncHandler is not defined
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\userController.js:4:22)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\routes\userRoutes.js:4:50)
+
+Node.js v22.12.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+(node:7344) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 exit listeners added to [Bus]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-00.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-00.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+^C^CTerminate batch job (Y/N)?
+Terminate batch job (Y/N)? y
+
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>npm i bcrypt
+npm WARN deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm WARN deprecated npmlog@5.0.1: This package is no longer supported.
+npm WARN deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm WARN deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm WARN deprecated are-we-there-yet@2.0.0: This package is no longer supported.
+npm WARN deprecated gauge@3.0.2: This package is no longer supported.
+
+added 54 packages, and audited 174 packages in 14s
+
+23 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>npm run dev
+
+> mycontacts-backend-api@1.0.0 dev
+> nodemon server.js
+
+[nodemon] 3.1.9
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+Hashed password $2b$10$KCNmCFbL.eYmF6DBXdcvOO3c9PmnhjOfkJwqKFRYy/ko2lVlK/O/K
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+Hashed password $2b$10$NghqJ5jeIMQTFmcGywSyTOtDjIKNbp62n7VtxGMFZDx4ROeVJD6YS
+User Created successfully - {
+  username: 'Yashwanth',
+  email: 'ear@gmail.com',
+  password: '$2b$10$NghqJ5jeIMQTFmcGywSyTOtDjIKNbp62n7VtxGMFZDx4ROeVJD6YS',
+  _id: new ObjectId('67687c6f33a699aa33199b8d'),
+  createdAt: 2024-12-22T20:54:07.877Z,
+  updatedAt: 2024-12-22T20:54:07.877Z,
+  __v: 0
+}
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+Hashed password $2b$10$VKQIZ94XM1B7A2p7WELE1.b7LsIbCuXQOGWR8CLv/2kj0p6ORrc2m
+User Created successfully - {
+  username: 'Yashwanth Pindi',
+  email: 'random@gmail.com',
+  password: '$2b$10$VKQIZ94XM1B7A2p7WELE1.b7LsIbCuXQOGWR8CLv/2kj0p6ORrc2m',
+  _id: new ObjectId('67687dc63713302f2c63bc2e'),
+  createdAt: 2024-12-22T20:59:50.241Z,
+  updatedAt: 2024-12-22T20:59:50.241Z,
+  __v: 0
+}
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+^C^CTerminate batch job (Y/N)? y
+
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>npm i jsonwebtoken
+
+added 13 packages, and audited 187 packages in 8s
+
+23 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>npm run dev
+
+> mycontacts-backend-api@1.0.0 dev
+> nodemon server.js
+
+[nodemon] 3.1.9
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-00.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-00.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-00.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-00.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-00.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+{
+  user: {
+    username: 'Yashwanth Pindi',
+    email: 'random@gmail.com',
+    id: '67687dc63713302f2c63bc2e'
+  },
+  iat: 1734904932,
+  exp: 1734904992
+}
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-00.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-00.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+{
+  user: {
+    username: 'Yashwanth Pindi',
+    email: 'random@gmail.com',
+    id: '67687dc63713302f2c63bc2e'
+  },
+  iat: 1734905582,
+  exp: 1734905642
+}
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-00.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-00.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-00.gpnwl.mongodb.net mycontacts-backend
+{
+  user: {
+    username: 'Yashwanth Pindi',
+    email: 'random@gmail.com',
+    id: '67687dc63713302f2c63bc2e'
+  },
+  iat: 1734906112,
+  exp: 1734906172
+}
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-00.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-00.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-02.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-00.gpnwl.mongodb.net mycontacts-backend
+{
+  user: {
+    username: 'Yashwanth Pindi',
+    email: 'random@gmail.com',
+    id: '67687dc63713302f2c63bc2e'
+  },
+  iat: 1734906871,
+  exp: 1734907771
+}
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+No errors. Everything is great!
+{
+  user: {
+    username: 'Yashwanth Pindi',
+    email: 'random@gmail.com',
+    id: '67687dc63713302f2c63bc2e'
+  },
+  iat: 1734906871,
+  exp: 1734907771
+}
+The request body is { name: 'Contact 1', email: 'contact@gmail.com', password: 'password' }
+{
+  user: {
+    username: 'Yashwanth Pindi',
+    email: 'random@gmail.com',
+    id: '67687dc63713302f2c63bc2e'
+  },
+  iat: 1734906871,
+  exp: 1734907771
+}
+The request body is { name: 'Contact 1', email: 'contact@gmail.com', phone: 'password' }
+{
+  user: {
+    username: 'Yashwanth Pindi',
+    email: 'random@gmail.com',
+    id: '67687dc63713302f2c63bc2e'
+  },
+  iat: 1734906871,
+  exp: 1734907771
+}
+The request body is {
+  name: 'Contact 2',
+  email: 'contact2@gmail.com',
+  phone: '234465132047'
+}
+{
+  user: {
+    username: 'Yashwanth Pindi',
+    email: 'random@gmail.com',
+    id: '67687dc63713302f2c63bc2e'
+  },
+  iat: 1734906871,
+  exp: 1734907771
+}
+No errors. Everything is great!
+Hashed password $2b$10$qoOBVYeScd7hLQvQHrTtouJj3k6ZW44H4BHbkckrqHIlwbggm.xii
+User Created successfully - {
+  username: 'User 2',
+  email: 'user2@gmail.com',
+  password: '$2b$10$qoOBVYeScd7hLQvQHrTtouJj3k6ZW44H4BHbkckrqHIlwbggm.xii',
+  _id: new ObjectId('676896f4c32f0354312ae2b0'),
+  createdAt: 2024-12-22T22:47:16.904Z,
+  updatedAt: 2024-12-22T22:47:16.904Z,
+  __v: 0
+}
+{
+  user: {
+    username: 'User 2',
+    email: 'user2@gmail.com',
+    id: '676896f4c32f0354312ae2b0'
+  },
+  iat: 1734907684,
+  exp: 1734908584
+}
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-00.gpnwl.mongodb.net mycontacts-backend
+{
+  user: {
+    username: 'Yashwanth Pindi',
+    email: 'random@gmail.com',
+    id: '67687dc63713302f2c63bc2e'
+  },
+  iat: 1734908137,
+  exp: 1734909037
+}
+{
+  user: {
+    username: 'Yashwanth Pindi',
+    email: 'random@gmail.com',
+    id: '67687dc63713302f2c63bc2e'
+  },
+  iat: 1734908137,
+  exp: 1734909037
+}
+{
+  user: {
+    username: 'Yashwanth Pindi',
+    email: 'random@gmail.com',
+    id: '67687dc63713302f2c63bc2e'
+  },
+  iat: 1734908137,
+  exp: 1734909037
+}
+{
+  user: {
+    username: 'Yashwanth Pindi',
+    email: 'random@gmail.com',
+    id: '67687dc63713302f2c63bc2e'
+  },
+  iat: 1734908137,
+  exp: 1734909037
+}
+No errors. Everything is great!
+{
+  user: {
+    username: 'Yashwanth Pindi',
+    email: 'random@gmail.com',
+    id: '67687dc63713302f2c63bc2e'
+  },
+  iat: 1734908137,
+  exp: 1734909037
+}
+No errors. Everything is great!
+{
+  user: {
+    username: 'Yashwanth Pindi',
+    email: 'random@gmail.com',
+    id: '67687dc63713302f2c63bc2e'
+  },
+  iat: 1734908558,
+  exp: 1734909458
+}
+{
+  user: {
+    username: 'Yashwanth Pindi',
+    email: 'random@gmail.com',
+    id: '67687dc63713302f2c63bc2e'
+  },
+  iat: 1734908558,
+  exp: 1734909458
+}
+No errors. Everything is great!
+{
+  user: {
+    username: 'Yashwanth Pindi',
+    email: 'random@gmail.com',
+    id: '67687dc63713302f2c63bc2e'
+  },
+  iat: 1734908558,
+  exp: 1734909458
+}
+No errors. Everything is great!
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server running on port 5001
+Connection Established. yashwanthcluster-shard-00-01.gpnwl.mongodb.net mycontacts-backend
+{
+  user: {
+    username: 'Yashwanth Pindi',
+    email: 'random@gmail.com',
+    id: '67687dc63713302f2c63bc2e'
+  },
+  iat: 1734908983,
+  exp: 1734909883
+}
+{
+  user: {
+    username: 'Yashwanth Pindi',
+    email: 'random@gmail.com',
+    id: '67687dc63713302f2c63bc2e'
+  },
+  iat: 1734908983,
+  exp: 1734909883
+}
+{
+  user: {
+    username: 'Yashwanth Pindi',
+    email: 'random@gmail.com',
+    id: '67687dc63713302f2c63bc2e'
+  },
+  iat: 1734908983,
+  exp: 1734909883
+}
+{
+  user: {
+    username: 'Yashwanth Pindi',
+    email: 'random@gmail.com',
+    id: '67687dc63713302f2c63bc2e'
+  },
+  iat: 1734908983,
+  exp: 1734909883
+}
+
+
+
+^C^CTerminate batch job (Y/N)? y
+
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>
+D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend>

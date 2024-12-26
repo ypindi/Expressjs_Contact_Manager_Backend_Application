@@ -1,0 +1,25 @@
+In thunderclient:
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Error</title>
+  </head>
+  <body>
+    <pre>Error: All fields are mandatory!<br> &nbsp; &nbsp;at createContact (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\contactController.js:39:15)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\layer.js:95:5)<br> &nbsp; &nbsp;at next (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\route.js:149:13)<br> &nbsp; &nbsp;at next (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\route.js:145:7)<br> &nbsp; &nbsp;at Route.dispatch (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\route.js:119:3)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\layer.js:95:5)<br> &nbsp; &nbsp;at D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\index.js:284:15<br> &nbsp; &nbsp;at Function.process_params (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\index.js:346:12)<br> &nbsp; &nbsp;at next (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\index.js:280:10)<br> &nbsp; &nbsp;at Function.handle (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\index.js:175:3)</pre>
+  </body>
+</html>
+
+
+in cmd:
+Error: All fields are mandatory!
+    at createContact (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\controllers\contactController.js:39:15)
+    at Layer.handle [as handle_request] (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\route.js:149:13)
+    at next (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\route.js:145:7)
+    at Route.dispatch (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Yashwanth\HTW_Berlin\Self_Learnings\Nodejs\Expressjs_ContactManagerApp\mycontacts-backend\node_modules\express\lib\router\index.js:175:3)

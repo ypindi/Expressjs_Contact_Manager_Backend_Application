@@ -1,0 +1,4 @@
+Mongoose is an Object Data Modeling (ODM) library for
+Node.js that provides a structured way to interact with MongoDB.
+
+For entities like contacts and user.

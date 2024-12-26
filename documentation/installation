@@ -1,0 +1,23 @@
+npm install express
+npm i -D nodemon
+npm i dotenv
+install thunder client / POSTMAN for api testing.
+npm install express
+npm i express-async-handler
+npm i mongoose
+npm i bcrypt
+npm i jsonwebtoken
+
+https://jwt.io/
+
+To run the server:
+npm run dev
+
+
+In package.json also you can find it:
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.2"
